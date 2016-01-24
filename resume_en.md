@@ -58,7 +58,7 @@ Mobile: (+86)158-0120-8429 &nbsp;&nbsp;&nbsp;&nbsp; E-mail: nobodycrackme@gmail.
 
 ### Awards & Publications
 
-* The First Prize Scholarship from Glodon Co., Ltd., at Tsinghua University
+* The First Prize Scholarship from Glodon Co., Ltd., at Tsinghua University, 2015
 * The Excellent Undergraduate of Nanjing University, 2014
 * [Imagilar][imagilar]: A Real-Time Image Similarity Search System on Mobile Platform, Web Information Systems Engineering (WISE2013)
 * The First-class of People's Scholarship at Nanjing University, 2013
