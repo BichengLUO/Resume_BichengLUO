@@ -44,11 +44,11 @@ Mobile: (+86)158-0120-8429 &nbsp;&nbsp;&nbsp;&nbsp; E-mail: nobodycrackme@gmail.
 ***Responsibilities***: **a.** Read the source code of SculptGL and understood its hierarchical structure; **b.** Designed the subdivision and sculpting algorithms based on WebGL; **c.** Designed and implemented the user interface using HTML/CSS.
 
 *   **PlanarSight &nbsp;&nbsp;&nbsp;&nbsp; Developer &nbsp;&nbsp;&nbsp;&nbsp; March - June 2015**  
-***Description***: PlanarSight is a course project for Computational Geometry (CS 7024-0183) in Tsinghua University. The project is a small game made by some advanced algorithms like constrained Delaunay triangulation and visibility polygon construction.  
+***Description***: [PlanarSight][planarsight] is a course project for Computational Geometry (CS 7024-0183) in Tsinghua University. The project is a small game made by some advanced algorithms like constrained Delaunay triangulation and visibility polygon construction.  
 ***Responsibilities***: **a.** Made surveys about planar visibility polygon generation algorithms; **b.** Led the team and held discussions for the accomplishment of the course project; **c.** Implemented the triangulation part of visibility polygon generation algorithm; **d.** Presented the final demonstration.
 
 *   **PocketNJU &nbsp;&nbsp;&nbsp;&nbsp; Developer &nbsp;&nbsp;&nbsp;&nbsp; February - June 2014**  
-***Description***: PocketNJU is the first iOS app that I completed and submitted to AppStore. This project was made in my last year of my undergraduate education. The app is a handy tool for life in campus and it will help you a lot when you're studying in Nanjing University.  
+***Description***: [PocketNJU][pocketnju] is the first iOS app that I completed and submitted to AppStore. This project was made in my last year of my undergraduate education. The app is a handy tool for life in campus and it will help you a lot when you're studying in Nanjing University.  
 ***Responsibilities***: **a.** Discussed detailed requirements and specification with product managers as well as back-end API developers; **b.** Designed and implemented the iOS application using UIKit/Foundation; **c.** Submitted to the AppStore and maintained the whole progress of the application.
 
 ### Personal Open Source Projects
@@ -70,3 +70,5 @@ Mobile: (+86)158-0120-8429 &nbsp;&nbsp;&nbsp;&nbsp; E-mail: nobodycrackme@gmail.
 [imagilar]:http://link.springer.com/chapter/10.1007%2F978-3-642-41154-0_47
 [imageprocessing]:https://github.com/BichengLUO/ImageProcessing
 [bukacracker]:https://github.com/BichengLUO/BukaCracker
+[pocketnju]:https://itunes.apple.com/us/app/zhang-shang-nan-da/id814490033
+[planarsight]:https://github.com/BichengLUO/PlanarSight
