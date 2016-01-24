@@ -1,5 +1,5 @@
 ### Bicheng Luo
-Mobile: (+86)158-0120-8429 &nbsp;&nbsp;&nbsp;&nbsp; E-mail: nobodycrackme@gmail.com &nbsp;&nbsp;&nbsp;&nbsp; Website: http://bichengluo.me &nbsp;&nbsp;&nbsp;&nbsp; GitHub: https://github.com/BichengLUO
+Mobile: (+86)158-0120-8429 &nbsp;&nbsp;&nbsp;&nbsp; E-mail: nobodycrackme@gmail.com &nbsp;&nbsp;&nbsp;&nbsp; Website: [http://bichengluo.me][blog] &nbsp;&nbsp;&nbsp;&nbsp; GitHub: [https://github.com/BichengLUO][github]
 
 ### Education
 *	**The Institute of Computer Graphics & Computer-Aided Design, Tsinghua University, Beijing, China**  
@@ -43,7 +43,7 @@ Mobile: (+86)158-0120-8429 &nbsp;&nbsp;&nbsp;&nbsp; E-mail: nobodycrackme@gmail.
 ***Description***: This is my final project for my bachelor's graduation. It's a pure front end project based on SculptGL. Inspired by ZBrush, a commercial software which do 3D modeling jobs with digital sculpting solution, I implemented a web-based 3D sculpting modeling system.  
 ***Responsibilities***: **a.** Read the source code of SculptGL and understood its hierarchical structure; **b.** Designed the subdivision and sculpting algorithms based on WebGL; **c.** Designed and implemented the user interface using HTML/CSS.
 
-*   **PlanarSight &nbsp;&nbsp;&nbsp;&nbsp; Developer &nbsp;&nbsp;&nbsp;&nbsp; March - June 2015**  
+*   **PlanarSight &nbsp;&nbsp;&nbsp;&nbsp; Team Leader/Developer &nbsp;&nbsp;&nbsp;&nbsp; March - June 2015**  
 ***Description***: [PlanarSight][planarsight] is a course project for Computational Geometry (CS 7024-0183) in Tsinghua University. The project is a small game made by some advanced algorithms like constrained Delaunay triangulation and visibility polygon construction.  
 ***Responsibilities***: **a.** Made surveys about planar visibility polygon generation algorithms; **b.** Led the team and held discussions for the accomplishment of the course project; **c.** Implemented the triangulation part of visibility polygon generation algorithm; **d.** Presented the final demonstration.
 
@@ -65,6 +65,8 @@ Mobile: (+86)158-0120-8429 &nbsp;&nbsp;&nbsp;&nbsp; E-mail: nobodycrackme@gmail.
 * Full scholarship of the Outstanding Undergraduate International Exchange Program from China Scholarship Council, 2012
 * The Third Prize of Innovation Cup held by Software Institute, Nanjing University, 2011.
 
+[blog]:http://bichengluo.me
+[github]:https://github.com/BichengLUO
 [blog@github]: https://github.com/BichengLUO/bichengluo.github.io
 [parocam]:http://parocam.com/
 [imagilar]:http://link.springer.com/chapter/10.1007%2F978-3-642-41154-0_47
