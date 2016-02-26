@@ -6,11 +6,11 @@ Mobile: (+86)158-0120-8429 &nbsp;&nbsp;&nbsp;&nbsp; E-mail: nobodycrackme@gmail.
 	Master of Software Engineering, Major GPA: 4.0/4.0, Rank: 2/156  
 
 * **Nanjing University, Nanjing, China, September 2010 - July 2014**  
-	Bachelor of Software Engineering, Major GPA: 4.3/5.0, Rank: 28/214
+	Bachelor of Software Engineering, Major GPA: 3.7/4.0, Rank: 28/214
 
 ### Skills
 
-*   Familiar with C++/Objective-C, know Java/Javascript.
+*   Familiar with C++/Objective-C, know Python/Java/JavaScript development.
 
 *   Experience in iOS development with UIKit/Foundation/CocoaPod, 2 apps on AppStore.
 
@@ -34,7 +34,7 @@ Mobile: (+86)158-0120-8429 &nbsp;&nbsp;&nbsp;&nbsp; E-mail: nobodycrackme@gmail.
     ***Description***: Developed questionnaire platform using Adobe Flex and Spring Security  
     ***Responsibilities***: **a.** Implemented a questionnaires administration platform based on Java EE; **b.** Designed the functionality of visualizing the flow chart of questionnaires presented by Adobe Flex; **c.** Built authority and security mechanisms for the questionnaire platform with Spring Security.
 
-*   **Data & Knowledge Engineering Group, University of Queensland, Brisbane, Australia &nbsp;&nbsp;&nbsp;&nbsp; Research Intern Intern &nbsp;&nbsp;&nbsp;&nbsp; October 2012 - February 2013**
+*   **Data & Knowledge Engineering Group, University of Queensland, Brisbane, Australia &nbsp;&nbsp;&nbsp;&nbsp; Research Intern &nbsp;&nbsp;&nbsp;&nbsp; October 2012 - February 2013**
 
     ***Description***: Published a paper concerning a real-time image similarity search system on mobile platform [Imagilar][imagilar]  
     ***Responsibilities***: **a.** Made surveys about image features detection and descriptor representation such as SIFT, FAST and SURF; **b.** Designed the algorithm for real-time searching and indexing on mobile platform; **c.** Implemented an iOS application supporting real-time image similarity search; **d.** Completed and published a paper on Web Information Systems Engineering (WISE2013).
