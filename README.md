@@ -8,7 +8,7 @@ This is a project of my personal resumes written in Markdown. All rights reserve
 
 English version            | Chinese version (中文版本)
 ---------------------------|-------------------------
-[Markdown](./resume_en.md])|[Markdown](./resume_cn.md)
+[Markdown](./resume_en.md)|[Markdown](./resume_cn.md)
 [PDF](./resume_en.pdf)     |[PDF](./resume_cn.pdf)
 [HTML](./resume_en.html)   |[HTML](./resume_cn.html)
 

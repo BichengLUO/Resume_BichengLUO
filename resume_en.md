@@ -19,9 +19,7 @@ Mobile: (+86)158-0120-8429 &nbsp;&nbsp;&nbsp;&nbsp; E-mail: nobodycrackme@gmail.
 *   Familiar with C++/Objective-C, know Python/Java/JavaScript development.
 *   Experience in iOS development with UIKit/Foundation/CocoaPod, 2 apps on AppStore.
 *   Familiar with computer vision and computer graphics, built projects with OpenCV/OpenGL/WebGL.
-*   Comfortable working on Linux/Mac.
 *   Professional working proficiency in English.
-*   3 years of experience with Git/SVN, worked with others on GitHub/Bitbucket.  
 
 ### Work Experience
 
@@ -42,10 +40,6 @@ Mobile: (+86)158-0120-8429 &nbsp;&nbsp;&nbsp;&nbsp; E-mail: nobodycrackme@gmail.
 
 ### Projects
 
-*   **PlanarSight &nbsp;&nbsp;&nbsp;&nbsp; Team Leader/Developer &nbsp;&nbsp;&nbsp;&nbsp; March - June 2015**  
-***Description***: [PlanarSight][planarsight] is a course project for Computational Geometry (CS 7024-0183) in Tsinghua University. The project is a small game made by advanced algorithms such as constrained Delaunay triangulation and visibility polygon construction.  
-***Responsibilities***: **a.** Made surveys about planar visibility polygon generation algorithms; **b.** Built the development platform using MFC and OpenGL; **c.** Led the team and held discussions for the accomplishment of the course project; **d.** Implemented constrained Delaunay triangulation as part of visibility polygon generation algorithm; **e.** Presented the final demonstration.
-
 *   **WebGLBrush &nbsp;&nbsp;&nbsp;&nbsp; Developer &nbsp;&nbsp;&nbsp;&nbsp; January - June 2014**  
 ***Description***: [WebGLBrush][webglbrush] is a pure front end project based on SculptGL, which is also the project for my bachelor's degree. Inspired by ZBrush, a commercial software which do 3D modeling jobs with digital sculpting solution, I implemented a web-based 3D sculpting modeling system.  
 ***Responsibilities***: **a.** Read the source code of SculptGL and understood its hierarchical structure; **b.** Designed the subdivision and sculpting algorithms based on WebGL; **c.** Designed and implemented the user interface using pure HTML5/CSS3.
@@ -57,8 +51,7 @@ Mobile: (+86)158-0120-8429 &nbsp;&nbsp;&nbsp;&nbsp; E-mail: nobodycrackme@gmail.
 ### Personal Open Source Projects
 * **[K3SimSearch][k3simsearch]**, a Python tool as a dictionary in which you can look up a GRE word and find its visually similar words.
 * **[ImageProcessing][imageprocessing]**, A basic image processing tool using OpenCV and MFC.
-* **[bichengluo.me][blog@github]**, My personal projects portfolio.
-* **[BukaCracker][bukacracker]**, BukaCracker, a Java EE web app which provides functionality of reading mangas online.
+* **[BukaCracker][bukacracker]**, a Java EE web app which provides functionality of reading mangas online.
 
 ### Awards
 * The First Prize Scholarship from Glodon Co., Ltd., at Tsinghua University, 2015
