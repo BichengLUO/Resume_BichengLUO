@@ -4,6 +4,10 @@
 
 This is a project of my personal resumes written in Markdown. All rights reserved about my personal information. However, if you think the resume is good, download the files whichever you like.
 
+##Resume for General purposes
+
+This is a PDF resume which serves for general purposes and contains both English and Chinese version into one file. Here is the downloading [link](./resume.pdf).
+
 ##Download
 
 ###Academic Style
