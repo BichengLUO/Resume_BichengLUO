@@ -1,0 +1,232 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2015 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,a4paper,roman]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+\newcommand{\zap}[1]{ }
+
+% moderncv themes
+\moderncvstyle{banking}                             % style options are 'casual' (default), 'classic', 'banking', 'oldstyle' and 'fancy'
+\moderncvcolor{black}                               % color options 'black', 'blue' (default), 'burgundy', 'green', 'grey', 'orange', 'purple' and 'red'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+% character encoding
+%\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+
+% adjust the page margins
+\usepackage[scale=0.75, top=2cm, bottom=2.54cm]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+\usepackage{enumerate}
+
+\usepackage[
+  colorlinks,
+  urlcolor={[rgb]{0,0,0.54}},
+  unicode
+]{hyperref}
+
+\usepackage{fontspec}
+
+\usepackage{color}
+
+\setmainfont[
+  Ligatures={TeX,Common},
+  BoldFont={AGaramondPro-Semibold},
+]{Adobe Garamond Pro}
+\setsansfont[
+  Ligatures={TeX,Common},
+  Letters=SmallCaps,
+  Color=660000,
+]{Adobe Garamond Pro}
+
+\renewcommand*{\cventry}[7][1em]{
+  \begin{tabular*}{\maincolumnwidth}{l@{\extracolsep{\fill}}r}%
+    {#3} & {\small\itshape#2}\\%
+    {#4} & \\
+   %
+  \end{tabular*}%
+  \ifx&#7&%
+  \else{\\%
+    \begin{minipage}{\maincolumnwidth}%
+      #7%
+    \end{minipage}}\fi%
+  \par\addvspace{#1}}
+
+\renewcommand*{\cvitemwithcomment}[4][1em]{%
+  \savebox{\cvitemwithcommentmainbox}{\ifthenelse{\equal{#2}{}}{}{\hintstyle{#2}: }#3}%
+  \setlength{\cvitemwithcommentmainlength}{\widthof{\usebox{\cvitemwithcommentmainbox}}}%
+  \setlength{\cvitemwithcommentcommentlength}{\maincolumnwidth-\separatorcolumnwidth-\cvitemwithcommentmainlength}%
+  \begin{minipage}[t]{\cvitemwithcommentmainlength}\usebox{\cvitemwithcommentmainbox}\end{minipage}%
+  \hfill% fill of \separatorcolumnwidth
+  \begin{minipage}[t]{\cvitemwithcommentcommentlength}\raggedleft\small\itshape #4\end{minipage}%
+  \par\addvspace{#1}}
+
+\newcommand{\cvexpr}[5][1em]{
+  \begin{tabular*}{\maincolumnwidth}{l@{\extracolsep{\fill}}r}%
+    {\textbf{#3}\ifthenelse{\equal{#4}{}}{}{, #4}} & {\small\itshape#2}%
+  \end{tabular*}%
+  \\
+  \begin{minipage}{\maincolumnwidth}%
+        #5%
+  \end{minipage}%
+  \par\addvspace{#1}
+}
+
+
+% personal data
+\name{\scshape Bicheng}{\scshape Luo}
+\address{The Institute of CG\&CAD, School of Software, Tsinghua University}{Beijing}{China}
+\mobile{(86)158-0120-8429}                         
+\email{bicheng.thu@gmail.com}
+\homepage{bichengluo.me}
+
+\begin{document}
+\makecvtitle
+
+\section{\scshape Education}
+
+\cventry{Sept. 2014--July 2017 (Expected)}{\textbf{Tsinghua University}, Beijing, China}{M.Eng. in Software Engineering, GPA: 95.8/100, Ranking: 2/156}{}{}{}
+\cventry{Sept. 2010--July 2014}{\textbf{Nanjing University}, Nanjing, China}{B.Eng. in Software Engineering, GPA: 4.37/5.0}{}{}{}
+
+%\section{Standardized Test Scores}
+
+%\cvitem{GRE}{Verbal: 155, Quantitative: 169, Analytical Writing: 3.5}
+%\cvitem{TOEFL}{Reading: 30, Listening: 30, Speaking: 20, Writing: 28, Total:108}
+
+\section{\scshape Research Experience}
+\cvexpr{June 2016--Present}{DepVR: 360$^{\circ}$ Scene Representation Based on Implicit Depth}{Tsinghua University}{
+\begin{itemize}
+\item Proposed an approach to capture, store and synthesize the 360$^{\circ}$ scene with the implicit depth information:
+\begin{itemize}
+\item Designed the representation for the 360$^{\circ}$ scene using Image-Based Rendering
+\item Made a set of capturing device to obtain the implicit depth of the real world scene
+\item Implemented a real-time synthesis method to demonstrate the VR scene on HMDs
+\end{itemize}
+\end{itemize}
+}
+
+\cvexpr{Aug. 2014--May 2016}{Light Field Compression}{Tsinghua University}{
+\begin{itemize}
+\item Proposed a method to record and represent the light field of objects in small storage:
+\begin{itemize}
+\item Designed a light-weighted representation of light field
+\item Built up a mini light stage for recording the light field of real world objects
+\item Developed the applications for compression encoding and real-time decoding
+\end{itemize}
+\end{itemize}
+}
+
+\cvexpr{Oct. 2012--Dec. 2013}{Image Similarity Search System on Mobile Platform}{University of Queensland}{
+\begin{itemize}
+\item Implemented a content-based similarity search application
+\item Published a demo paper to Web Information System Engineering (WISE2013):
+\begin{itemize}
+\item \href{http://link.springer.com/chapter/10.1007\%2F978-3-642-41154-0_47}{Imagilar: A Real-Time Image Similarity Search System on Mobile Platform}
+\end{itemize}
+\end{itemize}
+}
+
+\section{\scshape Work Experience}
+\cvexpr{Aug. 2014--Present}{Research Assistant}{School of Software, Tsinghua University}{
+\begin{itemize}
+\item Responsible for algorithm design and implementation using C/C++, OpenGL, Direct3D or other common computer vision and graphics libraries(OpenCV, OpenMP, CUDA, etc.
+\item Developed programs based on Arduino for hardware design and building
+\item Submitted a technical paper to IEEE Virtual Reality 2017
+\end{itemize}
+}
+
+\cvexpr{June 2016--Aug. 2016}{Software Engineering Intern}{Windows and Devices Group, Microsoft}{
+\begin{itemize}
+\item Developed \href{http://bichengluo.me/\#avaChat}{avaChat}, a mobile and PC application for communicating with friends in 3D avatars
+\item Developed \href{http://bichengluo.me/\#avaChat}{avaChat\_Holo}, the transplanted version of avaChat on Microsoft HoloLens
+\item Participated in Microsoft Hackathon 2016
+\end{itemize}
+}
+
+\cvexpr{Oct. 2014--Feb. 2016}{Startup Co-founder \& CTO}{Leezee Co., Ltd.}{
+\begin{itemize}
+\item Acted as the chief technical manager and led the team to develop \href{https://itunes.apple.com/us/app/parocam-funniest-camera-ever/id971725907}{Parocam}, an iOS application which can detect the user's face to record creative videos
+\item Designed the backend structure for \href{http://www.takevideo.cn/}{Take}, an iOS/Android application for online videos RSS
+\end{itemize}
+}
+
+\cvexpr{June 2013--Sept. 2013}{IT Analyst Summer Intern}{Morgan Stanley}{
+\begin{itemize}
+\item Implemented a questionnaires administration platform using Java EE
+\item Visualized the flow chart of questionnaires in Adobe Flex
+\item Built authority and security mechanisms into the questionnaire platform with Spring Security
+\end{itemize}
+}
+
+\cvexpr{Oct. 2012--Feb. 2013}{Research Intern}{School of ITEE, University of Queensland}{
+\begin{itemize}
+\item Designed the algorithm for real-time content-based image similarity indexing and retrieving
+\item Implemented a search system on mobile platform
+\item Completed and published \href{http://link.springer.com/chapter/10.1007\%2F978-3-642-41154-0_47}{a demo paper} on Web Information Systems Engineering (WISE2013)
+\end{itemize}
+}
+
+\section{\scshape Teaching Experience}
+\cvexpr{Mar. 2016--Present}{Teaching Assistant}{TsinghuaX, edX}{
+\begin{itemize}
+\item Course: \href{https://www.edx.org/course/computational-geometry-gis-cad-other-tsinghuax-70240183x-0}{Computational Geometry: GIS, CAD, and Other Applications}, 70240183x\begin{itemize}
+\item or \href{http://www.xuetangx.com/courses/course-v1:TsinghuaX+70240183x+2016_2/about}{Chinese version} in xuetangX
+\end{itemize}
+\item Helped the lecturer to maintain the whole progress of the online course
+\item Helped to make lecture videos and subtitles, designed quiz, programming assignments and the final test
+\item Designed and marked course projects, delivered lecture videos, and Q\&A in online discussions
+\end{itemize}
+}
+
+\cvexpr{Sept. 2015--Present}{Teaching Assistant}{Tsinghua University}{
+\begin{itemize}
+\item Course: Computational Geometry, 70240183
+\item Designed and marked course projects, delivered lectures, and Q\&A
+\end{itemize}
+}
+
+\cvexpr{Sept. 2015--Jan. 2016}{Teaching Assistant}{Tsinghua University}{
+\begin{itemize}
+\item Course: Algorithm Analysis and Design, 74100033
+\item Marked the course assignments and the final test, delivered lectures and Q\&A
+\end{itemize}
+}
+
+\section{\scshape Honors \& Awards}
+\cvlistitem{\cvitemwithcomment{}{First Class Scholarship, Tsinghua University (Top 2\%)}{2015}}
+\cvlistitem{\cvitemwithcomment{}{Graduate with Honor, Software Institute, Nanjing University (Top 10\%)}{2014}}
+\cvlistitem{Excellence in the Nation Level, Innovation and Entrepreneurial Project at Nanjing University,\\Project ID: G1210284071 (Awarded to 18 projects out of 170)
+\hfill\small\itshape 2013}
+\cvlistitem{Full Scholarship of the Outstanding Undergraduate International Exchange Program,\\China Scholarship Council (Awarded to 1000 undergraduates nationwide)
+\hfill\small\itshape 2012,2013}
+\cvlistitem{The Third Prize in Innovation Cup, Software Institute, Nanjing University\\(Awarded to 4 teams out of 11)
+\hfill\small\itshape 2011}
+
+\section{\scshape Publication}
+\begin{enumerate}[{[1]}]
+\item \cvitem{}{\textbf{Bicheng Luo}, Zi Huang, Hongyun Cai, Yang Yang. Imagilar: A Real-Time Image Similarity Search System on Mobile Platform. In \textit{Web Information Systems Engineering (WISE 2013)}, Volume 8181 of the series Lecture Notes in Computer Science pp 535-538\\
+Available at \href{http://link.springer.com/chapter/10.1007\%2F978-3-642-41154-0\_47}{http://link.springer.com/chapter/10.1007\%2F978-3-642-41154-0\_47}
+}
+\end{enumerate}
+
+\section{\scshape Papers Submitted}
+\begin{enumerate}[{[1]}]
+\item \cvitem{}{\textbf{Bicheng Luo}, Feng Xu, Jun-Hai Yong. DepVR: 360$^{\circ}$ Scene Representation Based on Implicit Depth. In the Proceeding of IEEE Virtual Reality (IEEE VR 2017).
+}
+
+\end{enumerate}
+
+
+\section{\scshape Selected Projects}
+\cvlistitem{\textbf{\href{http://webglbrush.sinaapp.com/}{WebGLBrush}}: The graduation project in Nanjing University, a WebGL-based 3D sculpture modeling system, inspired by ZBrush}
+\cvlistitem{\textbf{\href{https://github.com/BichengLUO/ImageProcessing}{ImageProcessing}}: A photo editing tool based on MFC and OpenCV, the course project for Digital Image Processing, including
+features of luminance/contrast adjustment, blur and sharpen, face detection and beautifying, image impainting, etc.}
+\cvlistitem{\textbf{\href{http://bichengluo.me/\#PlanarSight}{PlanarSight}}: A small game based on advanced computational geometry algorithms such as constrained Delaunay triangulation and visibility polygon construction}
+
+\clearpage
+\end{document}
